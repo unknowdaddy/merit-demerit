@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Merit & Demerit System (Multi-user)</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; margin: 40px; }
+    h1 { color: #333; }
+    #students { margin-top: 20px; }
+    .student {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin: 5px;
+      border-radius: 8px;
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    button { padding: 6px 12px; margin: 0 2px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>Merit & Demerit System</h1>
+
+  <input type="text" id="studentName" placeholder="Enter name">
+  <button onclick="addStudent()">Add Student</button>
+
+  <div id="students"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
